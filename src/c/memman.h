@@ -12,7 +12,7 @@
 
 extern void * wmalloc(unsigned int size);
 extern void * wrealloc(void *iptr, unsigned int size);
-extern void sfree(void *iptr);
+extern void wfree(void *iptr);
 extern void * reallocate_block(void *iptr, int *allocated_size, int required_size, int chunk_size);
 
 #endif
