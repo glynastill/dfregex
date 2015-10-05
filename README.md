@@ -2,9 +2,9 @@ POSIX Regex functions for DataFlex 3.2
 --------------------------------------
 
 Requires:
-*	DataFlex 3.1c onwards
-*	GCC or compatible compiler like MinGW
-*	GNU regex libraries for windows 
+	DataFlex 3.1c onwards
+	GCC or compatible compiler like MinGW
+	GNU regex libraries for windows 
 		http://sourceforge.net/projects/mingw/files/Other/UserContributed/regex
 
 I created this because despite VDF (Visual Dataflex) users being able to leverage

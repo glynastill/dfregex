@@ -30,7 +30,7 @@ static char * quote_output(char *str) {
     /* Check for characters that need quoting */
     for (ptr = str; *ptr; ptr++) {
         char        ch = *ptr;
-        if (ch == '\"' || ch =='\\' || ch == '\{' || ch == ',') {
+        if (ch == '"' || ch =='\\' || ch == '{' || ch == ',') {
             do_quote = 1;
             break;
         }
